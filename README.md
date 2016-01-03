@@ -7,6 +7,8 @@ To start a hub with default parameters, run the following command from a command
 <br/>
 <br/>
 java -jar selenium-server-standalone-2.44.0.jar -role hub
+<br/>
+<br/>
 This starts a hub using default parameter values. We’ll explain these parameters in folowing subsections. Note that you will likely have to change the version number in the jar filename depending on which version of the selenium-server you’re using.
 <br/>
 Starting a Node

@@ -14,6 +14,10 @@ Starting a Node
 To start a node using default parameters, run the following command from a command-line.
 <br/>
 java -jar selenium-server-standalone-2.44.0.jar -role node  -hub http://localhost:4444/grid/register
+
+<br/>
+<br/>
+
 This assumes the hub has been started above using default parameters. The default port the hub uses to listen for new requests is port 4444. This is why port 4444 was used in the URL for locating the hub. Also the use of ‘localhost’ assumes your node is running on the same machine as your hub. For getting started this is probably easiest. If running the hub and node on separate machines, simply replace ‘localhost’ with the hostname of the remote machine running the hub.
 <br/>
 WARNING: Be sure to turn off the firewalls on the machine running your hub and nodes. Otherwise you may get connection errors.
